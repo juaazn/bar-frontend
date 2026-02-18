@@ -1,5 +1,5 @@
 import type { HomeApiResponse, HomePage } from "./home.types";
-import imagenAlternativa from '../../assets/imagen_alternativa_principal.png';
+import imagenAlternativa from "../../../assets/imagen_alternativa_principal.png";
 
 export function mapHomePage (api: HomeApiResponse): HomePage {
   return {
